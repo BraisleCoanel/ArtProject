@@ -44,4 +44,84 @@ public class ShapeCanvas extends JPanel
 		this.setPreferredSize(new Dimension(600, 600));
 		this.setMaximumSize(getPreferredSize());
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public void drawOnCanvas(int xPosition, int yPosition)
+	{
+		Graphics2D current = canvasImage.createGraphics();
+		current.setPaint(Color.BLACK);
+		current.setStroke(new BasicStroke(3));
+		
+		current.drawLine(xPosition, yPosition, xPosition, yPosition);
+		
+		updateImage();
+	}
+	
 }
